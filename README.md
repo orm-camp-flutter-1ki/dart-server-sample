@@ -6,6 +6,13 @@
 dart create -t server-shelf dart_web_server
 ```
 
+# 테스트시 주의점
+
+- 안드로이드 에뮬레이터에서 로컬 PC(Server)에 접근 할 때 ip : 10.0.2.2
+- iOS 시뮬레이터에서는 로컬 PC(Server) localhost 로 접근 가능
+- 실제 기기에서 로컬 PC(Server)에 접근 할 때 ip : ipconfig 로 확인
+
+
 A server app built using [Shelf](https://pub.dev/packages/shelf),
 configured to enable running with [Docker](https://www.docker.com/).
 
